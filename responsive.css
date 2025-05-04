@@ -1,0 +1,273 @@
+/* Responsive styles */
+
+@media (max-width: 1252px) {
+  .serve {
+    height: auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e2f;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  .nav-links.active {
+    max-height: 500px;
+    padding: 1rem 0;
+  }
+
+  .profile {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profileText {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .about {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url(img/profile.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .profileImg {
+    display: none;
+  }
+
+  .profileText h5 {
+    font-size: 30px;
+    color: rgb(248, 245, 245);
+    margin: 8px 0;
+  }
+
+  .profileText h3 {
+    font-size: 30px;
+    margin: 4px 0;
+    color: rgb(233, 233, 225);
+  }
+
+  .profileText h3 span {
+    color: rgb(252, 249, 249);
+  }
+
+  .profileText p {
+    color: rgb(192, 191, 189);
+    margin: 4px 0;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .profileText h5 {
+    font-size: 18px;
+    color: rgb(248, 245, 245);
+    margin: 8px 0;
+  }
+
+  .profileText h3 {
+    font-size: 22px;
+    margin: 4px 0;
+    color: rgb(233, 233, 225);
+  }
+
+  .profileText h3 span {
+    color: rgb(252, 249, 249);
+  }
+
+  .secondSkill progress {
+    height: 0.4rem;
+  }
+
+  .cen {
+    font-size: 13px;
+    line-height: 1.5rem;
+  }
+
+  .profileText p {
+    color: rgb(192, 191, 189);
+    margin: 4px 0;
+    font-size: 14px;
+  }
+
+  .profile {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profileText {
+    width: 100%;
+    padding: 1rem 10px;
+  }
+
+  .serve {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .service {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+  }
+
+  .heading {
+    height: 30%;
+    font-size: 1.5rem;
+    margin: 0 1.5rem;
+  }
+
+  .skillLogo i {
+    font-size: 1rem;
+  }
+
+  .skills {
+    width: 100vw;
+    height: auto;
+  }
+
+  .skill {
+    width: 90%;
+    height: auto;
+
+    display: inline-block;
+  }
+  .skill .firstSkill {
+    max-width: 90%;
+  }
+
+  .skill .secondSkill {
+    width: 95vw;
+    padding: 0 1rem;
+  }
+  .skillText {
+    width: 100vw;
+  }
+
+  .skillText p {
+    width: 80vw;
+    padding: 0 1rem 0 0;
+  }
+
+  .firstSkill .design {
+    width: 90vw;
+  }
+  .skillLogo {
+    margin: auto 1rem;
+    padding: 0;
+  }
+  .skillLogo i {
+    font-size: 1rem;
+    margin: auto 0.5rem;
+  }
+
+  .secondSkill .cen {
+    margin: 1rem 0;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .projectOne {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .contactSection {
+    margin: auto;
+    display: block;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .group input {
+    width: 90vw;
+    margin-top: 1rem;
+  }
+  .group textarea {
+    width: 50vw;
+  }
+
+
+.info {
+  width: 100%;
+}
+
+
+
+.address {
+  width: 100%;
+}
+.contactPage {
+  width: 80%;
+}
+
+
+.loca i {
+  font-size: 2rem;
+  display: block;
+}
+
+.group {
+  width: 90%;
+  height: 2rem;
+}
+
+.contactPage h1 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  width: 90vw;
+}
+
+.contactPage p {
+  font-size: 0.8rem;
+  width: 90vw;
+  margin: 5px 0;
+}
+
+
+.subBtn {
+  padding: 6px 15px;
+  margin: 2.5rem 0;
+}
+
+  
+}
