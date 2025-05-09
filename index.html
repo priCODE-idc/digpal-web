@@ -34,7 +34,7 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#skills">Skill</a></li>
         <li><a href="#project">Project</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -277,15 +277,15 @@
             Feel tree to reach out with any questions o project ideas. i'm
             always open to connect and collaborate with you.
           </p>
-          <form action="submit.php" method="POST">
+          <form action="submit.php" method="POST" id="form">
             <div class="group">
-              <input type="text" placeholder="Enter Name" />
+              <input type="text" id="name" placeholder="Enter Name" required/>
             </div>
             <div class="group">
-              <input type="email" placeholder="Enter email" />
+              <input type="email" id="email" placeholder="Enter email" required/>
             </div>
             <div class="group">
-              <textarea placeholder="Ask anything"></textarea>
+              <textarea  id="message" placeholder="Ask anything" required></textarea>
             </div>
             <button type="submit" class="subBtn">Submit</button>
           </form>
